@@ -5,7 +5,7 @@ class Work extends React.Component {
             return ( 
                   <div><br></br>
                   
-                        <p>CAREER GOALS <br></br>Upon completing of my certifcate program from BCA, I am interested in switching careers into the world of web development. <br></br>I hope to continue to strengthen my knowledge of writing Javascript, HTML, and CSS. I also hope to continue using the React<br></br> framework for practical web application. I do hope to learn more programming languages in the future as I gain more familiriaty<br></br> with those that I am currently learning. <br></br> <br></br>
+                        <p>CAREER GOALS <br></br>Upon completion of my certifcate program from BCA, I am interested in switching careers into the world of web development. <br></br>I hope to continue to strengthen my knowledge of writing Javascript, HTML, and CSS. I also hope to continue using the React<br></br> framework for practical web application. I do hope to learn more programming languages in the future as I gain more familiriaty<br></br> with those that I am currently learning. <br></br> <br></br>
 
 
                         EDUCATION<br></br>
