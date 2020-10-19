@@ -1,13 +1,277 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* NAV */
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+  margin-left:-10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#nav2 {
+  display:flex;
+  flex-direction: row;
+}
+
+#about {
+  margin: 20px;
+}
+
+#about:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+#projects {
+  margin: 20px
+}
+
+#projects:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+#interests {
+  margin: 20px
+}
+
+#interests:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+#work {
+  margin: 20px
+}
+
+#work:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+#contact {
+  margin: 20px
+}
+
+#contact:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+#home{
+  margin: 20px
+}
+
+#home:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer
+}
+
+/* HOMEEEE */
+#emilysaber {
+height: 650px;
+width: 500px;
+}
+
+#emilysaber1 {
+  opacity: 0.7;
+  height: 650px
+}
+
+#homemargin {
+  margin:60px
+}
+
+#bottomhome{
+  margin-bottom: 50px;
+}
+#homeheader {
+ margin-top:100px
+}
+
+#homeflex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#homepara{
+  width:600px
+}
+
+/* AAABBOUUUUUTTT */
+
+#aboutmargin {
+  margin:40px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+#NEK{
+  opacity: 0.9;
+}
+
+#abouttext{
+  margin-left: 50px;
+  width:600px
+}
+
+#aboutbottommargin{
+  margin-bottom: 90px;
+}
+
+/*INTEREST*/
+
+#interest{
+ height: 45vh;
+ width: 20vw;
+ opacity: 0.9;
+}
+
+#interestpara{
+  width:600px
+}
+
+#interestmargin {
+  margin:160px
+}
+
+#interestflex{
+  display:flex;
+  justify-content: center;
+}
+
+#interesttopmargin{
+  margin-bottom: 160px;
+}
+
+/* PROJECTS */
+
+#projectflex {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#flexproject{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  margin:40px;
+}
+
+#projectpic{
+  width: 40vh;
+  height: 25vh;
+}
+
+#projectpic:hover{
+  opacity: 0.4;
+}
+
+#projectmargin{
+  margin: 100px
+}
+
+#github {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#github:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer;
+}
+
+#projectbottommargin{
+  margin-bottom: 120px;
+}
+
+  
+  /* FOOTER */
+
+#footerborder {
+  border-top: 4px solid black;
+  margin-left:-10px;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+#linked {
+  
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#linked:hover{
+  color:rgba(182,88,88,1); 
+  cursor: pointer;
+}
+
+
+#copy{
+  margin: 20px
+}
+
+
+/*CONTACT*/
+
+#contactmargin{
+  margin: 100px
+}
+
+#bottomcontactmargin{
+  margin: 160px
+}
+
+#contentflex{
+  display: flex;
+  justify-content:center
+}
+
+#contactpara{
+  margin-top: 80px;
+  margin-left: 30px;
+  width:600px
+
+}
+
+#contactpic{
+  opacity: 0.8;
+}
+
+#contact.hover{
+  cursor:auto
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#message {
+  height:150px;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#text{
+  margin-top: 10px;
+}
+
+#message{
+  margin-top: 10px;
+}
+
+#submit{
+  margin-top: 10px;
 }
