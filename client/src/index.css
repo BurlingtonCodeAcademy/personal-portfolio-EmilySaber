@@ -20,7 +20,7 @@ p{
 }
 
 #about:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -29,7 +29,7 @@ p{
 }
 
 #projects:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -38,7 +38,7 @@ p{
 }
 
 #interests:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -47,7 +47,7 @@ p{
 }
 
 #work:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -56,7 +56,7 @@ p{
 }
 
 #contact:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -65,7 +65,7 @@ p{
 }
 
 #home:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer
 }
 
@@ -110,6 +110,10 @@ width: 500px;
 
 #NEK{
   opacity: 0.9;
+}
+
+#NEK2{
+  opacity: 0.8;
 }
 
 #abouttext{
@@ -182,7 +186,7 @@ width: 500px;
 }
 
 #github:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer;
 }
 
@@ -204,7 +208,7 @@ width: 500px;
 }
 
 #linked {
-  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
   text-decoration: none;
   margin: 20px;
@@ -212,7 +216,7 @@ width: 500px;
 }
 
 #linked:hover{
-  color:rgba(182,88,88,1); 
+  color:#99ccff;
   cursor: pointer;
 }
 
