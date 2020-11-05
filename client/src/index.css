@@ -1,181 +1,161 @@
-/* NAV */
-p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+/********************** NAVIGATION */
+
+/* font style for web app */
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#nav{
-  display:flex;
+
+/* create flex box for nav positioning */
+#nav {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 4px solid black;
-  margin-left:-10px;
+  margin-left: -10px;
 }
 
+/* second flex box for every icon that is not home */
 #nav2 {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
-#about {
+/* so my react/page links are not underlined! */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* styling of all nav bar icons */
+#navicon {
+  margin: 20px;
+  text-decoration: none;
+}
+
+/* hover on nav bar icon styling */
+#navicon:hover {
+  color: #99ccff;
+  cursor: pointer;
+}
+
+/* can probably replace this with navbar */
+#contact {
   margin: 20px;
 }
 
-#about:hover{
-  color:#99ccff;
-  cursor: pointer
+#contact:hover {
+  color: #99ccff;
+  cursor: pointer;
 }
 
-#projects {
-  margin: 20px
-}
-
-#projects:hover{
-  color:#99ccff;
-  cursor: pointer
-}
-
-#interests {
-  margin: 20px
-}
-
-#interests:hover{
-  color:#99ccff;
-  cursor: pointer
-}
-
-#work {
-  margin: 20px
-}
-
-#work:hover{
-  color:#99ccff;
-  cursor: pointer
-}
-
-#contact {
-  margin: 20px
-}
-
-#contact:hover{
-  color:#99ccff;
-  cursor: pointer
-}
-
-#home{
-  margin: 20px
-}
-
-#home:hover{
-  color:#99ccff;
-  cursor: pointer
-}
-
-/* HOMEEEE */
+/******************** HOME */
+/* home image parameters */
 #emilysaber {
-height: 650px;
-width: 500px;
+  height: 650px;
+  width: 500px;
 }
-
+/* home image parameters */
 #emilysaber1 {
   opacity: 0.7;
-  height: 650px
+  height: 650px;
 }
 
-#homemargin {
-  margin:60px
+#homemargintop {
+  margin: 60px;
 }
 
-#bottomhome{
+#bottomhomemargin {
   margin-bottom: 50px;
 }
 #homeheader {
- margin-top:100px
+  margin-top: 100px;
 }
 
-#homeflex{
+#homeflex {
   display: flex;
   justify-content: space-evenly;
 }
 
-#homepara{
-  width:600px
+#homepara {
+  width: 600px;
 }
 
 /* AAABBOUUUUUTTT */
 
 #aboutmargin {
-  margin:40px;
-  display:flex;
+  margin: 40px;
+  display: flex;
   justify-content: flex-start;
 }
 
-#NEK{
+#NEK {
   opacity: 0.9;
 }
 
-#NEK2{
+#NEK2 {
   opacity: 0.8;
 }
 
-#abouttext{
+#abouttext {
   margin-left: 50px;
-  width:600px
+  width: 600px;
 }
 
-#aboutbottommargin{
+#aboutbottommargin {
   margin-bottom: 90px;
 }
 
 /*INTEREST*/
 
-#interest{
- height: 45vh;
- width: 20vw;
- opacity: 0.9;
+#interest {
+  height: 45vh;
+  width: 20vw;
+  opacity: 0.9;
 }
 
-#interestpara{
-  width:600px
+#interestpara {
+  width: 600px;
 }
 
 #interestmargin {
-  margin:160px
+  margin: 160px;
 }
 
-#interestflex{
-  display:flex;
+#interestflex {
+  display: flex;
   justify-content: center;
 }
 
-#interesttopmargin{
+#interesttopmargin {
   margin-bottom: 160px;
 }
 
 /* PROJECTS */
 
 #projectflex {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
 }
 
-#flexproject{
-  display:flex;
+#flexproject {
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 30vw;
-  margin:40px;
+  margin: 40px;
 }
 
-#projectpic{
+#projectpic {
   width: 40vh;
   height: 25vh;
 }
 
-#projectpic:hover{
+#projectpic:hover {
   opacity: 0.4;
 }
 
-#projectmargin{
-  margin: 100px
+#projectmargin {
+  margin: 100px;
 }
 
 #github {
@@ -185,75 +165,70 @@ width: 500px;
   margin-right: 50px;
 }
 
-#github:hover{
-  color:#99ccff;
+#github:hover {
+  color: #99ccff;
   cursor: pointer;
 }
 
-#projectbottommargin{
+#projectbottommargin {
   margin-bottom: 120px;
 }
 
-  
-  /* FOOTER */
+/* FOOTER */
 
 #footerborder {
   border-top: 4px solid black;
-  margin-left:-10px;
-  width:100%;
-  display:flex;
+  margin-left: -10px;
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
 }
 
 #linked {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
   text-decoration: none;
   margin: 20px;
   margin-right: 50px;
 }
 
-#linked:hover{
-  color:#99ccff;
+#linked:hover {
+  color: #99ccff;
   cursor: pointer;
 }
 
-
-#copy{
-  margin: 20px
+#copy {
+  margin: 20px;
 }
-
 
 /*CONTACT*/
 
-#contactmargin{
-  margin: 100px
+#contactmargin {
+  margin: 100px;
 }
 
-#bottomcontactmargin{
-  margin: 160px
+#bottomcontactmargin {
+  margin: 160px;
 }
 
-#contentflex{
+#contentflex {
   display: flex;
-  justify-content:center
+  justify-content: center;
 }
 
-#contactpara{
+#contactpara {
   margin-top: 80px;
   margin-left: 30px;
-  width:600px
-
+  width: 600px;
 }
 
-#contactpic{
+#contactpic {
   opacity: 0.8;
 }
 
-#contact.hover{
-  cursor:auto
+#contact.hover {
+  cursor: auto;
 }
 
 ul {
@@ -263,19 +238,19 @@ ul {
 }
 
 #message {
-  height:150px;
+  height: 150px;
   width: 600px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#text{
+#text {
   margin-top: 10px;
 }
 
-#message{
+#message {
   margin-top: 10px;
 }
 
-#submit{
+#submit {
   margin-top: 10px;
 }
