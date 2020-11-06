@@ -1,13 +1,264 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/******************************************** NAVIGATION */
+
+/* font style for web app */
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* create flex box for nav positioning */
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px solid black;
+  margin-left: -10px;
+}
+
+/* second flex box for every icon that is not home */
+#nav2 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* so my react/page links are not underlined! */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* styling of all nav bar icons */
+#navicon {
+  margin: 20px;
+  text-decoration: none;
+}
+
+/* hover on nav bar icon styling */
+#navicon:hover {
+  color: #99ccff;
+  cursor: pointer;
+}
+
+/* can probably replace this with navbar */
+#contact {
+  margin: 20px;
+}
+
+#contact:hover {
+  color: #99ccff;
+  cursor: pointer;
+}
+
+/********************************************** HOME */
+/* home image parameters */
+#emilysaber {
+  height: 650px;
+  width: 500px;
+}
+/* home image parameters */
+#emilysaber1 {
+  opacity: 0.7;
+  height: 650px;
+}
+
+/* home margins */
+#homemargintop {
+  margin: 60px;
+}
+
+/* home margins */
+#bottomhomemargin {
+  margin-bottom: 50px;
+}
+
+/* home margins */
+#homeheader {
+  margin-top: 100px;
+}
+
+/* home felxbox */
+#homeflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* home text paragrpah size */
+#homepara {
+  width: 600px;
+}
+
+/******************************* AAABBOUUUUUTTT */
+
+/* about margins */
+#aboutmargin {
+  margin: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* image settings */
+#NEK {
+  opacity: 0.9;
+}
+/* image settings */
+#NEK2 {
+  opacity: 0.8;
+}
+
+/* about text paragraph */
+#abouttext {
+  margin-left: 50px;
+  width: 600px;
+}
+
+/* about margins */
+#aboutbottommargin {
+  margin-bottom: 90px;
+}
+
+/*************************************INTEREST*/
+
+/* image  */
+#interest {
+  height: 45vh;
+  width: 20vw;
+  opacity: 0.9;
+}
+
+/* paragraph text size */
+#interestpara {
+  width: 600px;
+}
+
+/* interest margins */
+#interestmargin {
+  margin: 160px;
+}
+
+/* interest flexbox */
+#interestflex {
+  display: flex;
+  justify-content: center;
+}
+
+/* interest margins */
+#interesttopmargin {
+  margin-bottom: 160px;
+}
+
+/******************************** PROJECTS */
+
+/* project flexbox */
+#projectflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* project flexbox pt 2 */
+#flexproject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  margin: 40px;
+}
+/* project picture */
+#projectpic {
+  width: 40vh;
+  height: 25vh;
+}
+/* project picture hover */
+#projectpic:hover {
+  opacity: 0.4;
+}
+/* project margin */
+#projectmargin {
+  margin: 100px;
+}
+/* project link */
+#github {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  margin-right: 50px;
+}
+/* project link */
+#github:hover {
+  color: #99ccff;
+  cursor: pointer;
+}
+/* project margin */
+#projectbottommargin {
+  margin-bottom: 120px;
+}
+
+/************************************ FOOTER */
+/* top footer border */
+#footerborder {
+  border-top: 4px solid black;
+  margin-left: -10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* linked in link */
+#linked {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#linked:hover {
+  color: #99ccff;
+  cursor: pointer;
+}
+/* copyright margin */
+#copy {
+  margin: 20px;
+}
+
+/*****************************CONTACT*/
+/* contact margin */
+#contactmargin {
+  margin: 100px;
+}
+/* contact margin */
+#bottomcontactmargin {
+  margin: 160px;
+}
+/* contact flexbox */
+#contentflex {
+  display: flex;
+  justify-content: center;
+}
+/* contact text paragraph */
+#contactpara {
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 600px;
+}
+/* contact picture */
+#contactpic {
+  opacity: 0.8;
+}
+
+#contact.hover {
+  cursor: auto;
+}
+/* contact form list style */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* contact form message area */
+#message {
+  height: 150px;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* contact form input area */
+#text, #message, #submit  {
+  margin-top: 10px;
 }
